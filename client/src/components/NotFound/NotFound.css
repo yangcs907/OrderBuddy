@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny');
+
+.Not-Found{
+   background-image: url(./build/Images/PageNotFound);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.oops{
+    font-family: 'Henny Penny', cursive;
+    font-size: 125px;
+    text-align: center;
+}
+
+.oops-desc{
+    font-family: 'Henny Penny', cursive;
+    font-size: 45px;
+    text-align: center;
+}

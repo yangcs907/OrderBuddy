@@ -1,0 +1,65 @@
+.foodContainer {
+	width: 9999px;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 20px;
+	border-radius: 5px;
+	height: 275px;
+}
+
+.imageContainer {
+	max-width: 100%;
+	max-height: 100%;
+	float: left;
+	margin-left: 20px;
+	height: 100%;
+}
+.imageContainer img {
+	border-radius: 5px;
+	height: 100%;
+}
+
+.card {
+	background-color: rgba(255,255,255,0.1);
+	width: 600px;
+	max-width: 100%;
+	float: left;
+	height: 100%
+}
+
+.card-title {
+	font-family: 'Poiret One', sans-serif;
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.card-textDesc {
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(255,255,255,0.7);
+}
+
+.card-textPrice {
+	font-family: 'Didact Gothic', sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+.addButton {
+	margin-right: 10px;
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	color: rgb(238,232,170);
+	font-family: 'Poiret One', sans-serif;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .imageContainer {
+    width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+		justify-content: center;
+  }
+}
